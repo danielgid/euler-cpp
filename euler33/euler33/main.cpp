@@ -47,7 +47,6 @@ int euler33(){
         for (int j = i; j < 100; j++) {
 
             if(ifCancelling((double) i, (double)j)){
-                cout << i << " " << j << endl;
                 if(i * j < rc)
                     rc = i*j;
             }
