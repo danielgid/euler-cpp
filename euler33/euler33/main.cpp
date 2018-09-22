@@ -73,25 +73,18 @@ bool ifCancelling(double num1, double num2){
     dy2 = (double)tmp;
     
     if((double)(dx1/dy1) == (double)(num1/num2) && (dx2 == dy2)){
-        //cout <<dx1 << " " << dy1<<" "<<(num1/num2)<< endl;
         return true;
     }
     
     if((double)(dx1/dy2) == (double)(num1/num2) && (dx2 == dy1)){
-        //cout <<dx1 << " " << dy2<<" "<<(num1/num2)<< endl;
-
         return true;
     }
     
     if((double)(dx2/dy1) == (double)(num1/num2) && (dx1 == dy2)){
-       // cout <<dx2 << " " << dy1<<" "<<(num1/num2)<< endl;
-
         return true;
     }
     
     if((double)(dx2/dy2) == (double)(num1/num2) && (dx1 == dy1)){
-        //cout <<dx2 << " " << dy2<<" "<<(num1/num2)<< endl;
-
         return true;
     }
     
